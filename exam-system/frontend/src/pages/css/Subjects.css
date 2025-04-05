@@ -1,0 +1,29 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .list-group-item {
+    background-color: #f8f9fa;
+    transition: background 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .list-group-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  h1 {
+    color: #007bff;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  .spinner-border {
+    width: 3rem;
+    height: 3rem;
+  }
+  

@@ -1,0 +1,59 @@
+/* Login.css */
+
+/* Tạo hiệu ứng cho container */
+.login-container {
+    height: 100vh;
+    background: linear-gradient(135deg, #00bcd4, #8e44ad); /* Gradient nền đẹp */
+    padding: 20px;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    background-color: #ffffff; /* Nền trắng cho card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bóng đổ nhẹ */
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  .form-label {
+    color: #34495e;
+    font-weight: 600;
+  }
+  
+  input.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+  }
+  
+  /* Tạo hiệu ứng khi hover trên input */
+  input.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  button.login-btn {
+    background-color: #3498db; /* Màu xanh đẹp cho nút */
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.login-btn:hover {
+    background-color: #2980b9; /* Tối màu khi hover */
+  }
+  
+  /* Thêm hiệu ứng cho form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  

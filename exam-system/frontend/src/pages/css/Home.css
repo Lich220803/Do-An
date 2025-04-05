@@ -1,0 +1,45 @@
+/* Home.css */
+.bg-custom {
+  background-color: #fafafa; /* Màu nền sáng nhẹ, tạo cảm giác sạch sẽ */
+  border-radius: 20px; /* Bo góc card thêm mềm mại */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm bóng nhẹ cho card */
+}
+
+.text-main {
+  color: #2C3E50; /* Màu tối sang trọng cho tiêu đề */
+  font-weight: bold; /* Làm chữ tiêu đề đậm hơn */
+}
+
+.text-subtle {
+  color: #34495E; /* Màu xám xanh đậm cho văn bản phụ */
+  font-weight: 600; /* Làm chữ văn bản phụ đậm hơn */
+}
+
+hr.my-4 {
+  border-top: 2px solid #16A085; /* Đường phân cách màu xanh lam đậm, tạo sự nổi bật */
+}
+
+.text-muted {
+  color: #BDC3C7; /* Màu xám sáng cho văn bản thông báo */
+  font-weight: 500; /* Làm chữ thông báo đậm hơn */
+}
+
+.card p {
+  font-weight: 500; /* Làm tất cả văn bản trong card đậm hơn */
+}
+
+.card h1, .card p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng bóng cho chữ */
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px; /* Thêm khoảng cách cho container */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px; /* Điều chỉnh padding cho thiết bị di động */
+  }
+}

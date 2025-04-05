@@ -1,0 +1,59 @@
+/* Register.css */
+
+/* Tạo hiệu ứng cho container */
+.register-container {
+    height: 100vh;
+    background: linear-gradient(135deg, #00bcd4, #8e44ad); /* Gradient nền đẹp */
+    padding: 20px;
+  }
+  
+  .register-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: #ffffff; /* Nền trắng cho card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+  }
+  
+  h2 {
+    color: #007bff; /* Màu xanh đậm cho tiêu đề */
+    font-weight: bold;
+  }
+  
+  .form-label {
+    color: #6c757d; /* Màu xám cho nhãn */
+  }
+  
+  input.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+  }
+  
+  /* Tạo hiệu ứng khi hover trên input */
+  input.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Màu sắc cho nút Đăng Ký */
+  button.register-btn {
+    background-color: #3498db; /* Màu xanh đẹp cho nút */
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.register-btn:hover {
+    background-color: #0056b3; /* Màu xanh đậm hơn khi hover */
+  }
+  
+  /* Thêm hiệu ứng cho form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  

@@ -1,0 +1,26 @@
+.square-box {
+    height: 250px; /* Đặt chiều cao cố định để tạo hình vuông */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* Thêm con trỏ chuột khi hover */
+  }
+  
+  .square-box:hover {
+    transform: scale(1.05); /* Hiệu ứng phóng to nhẹ khi hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Tăng độ đậm bóng mờ khi hover */
+  }
+  
+  .square-box h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .square-box p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
